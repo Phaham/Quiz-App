@@ -32,10 +32,10 @@ export default function Simple() {
                             as={'nav'}
                             spacing={4}
                             display={{ base: 'none', md: 'flex' }}>
-                            <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none' }} to="/">Home
+                            {/* <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none' }} to="/">Home
                             </ReachLink>
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none' }} to="/about">About
-                            </ReachLink>
+                            </ReachLink> */}
                         </HStack>
                     </HStack>
                 </Flex>
@@ -50,10 +50,10 @@ export default function Simple() {
                             <ReachLink to="/about">
                             <Link px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none' }} key={'about'} to={'/about'}>About</Link> 
                             </ReachLink> */}
-                            <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none' }} to="/">Home
+                            {/* <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none' }} to="/">Home
                             </ReachLink>
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none' }} to="/about">About
-                            </ReachLink>
+                            </ReachLink> */}
                         </Stack>
                     </Box>
                 ) : null}
