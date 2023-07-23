@@ -1,7 +1,7 @@
 import { Box, Flex, Avatar, HStack, IconButton, useDisclosure, useColorModeValue, Stack, } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import logo from './../../Assets/logo.png'
-import { Link as ReachLink } from 'react-router-dom'
+// import { Link as ReachLink } from 'react-router-dom'
 
 export default function Simple() {
     const { isOpen, onOpen, onClose } = useDisclosure();
